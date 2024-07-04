@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Print Image Extension",
+    "version": "1.0",
+    "description": "A Chrome extension to print images directly from the right-click context menu.",
+    "permissions": ["contextMenus", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "temp1": "temp1.jpg",
+      "temp2": "temp2.jpg"
+    }
+  }
+  
